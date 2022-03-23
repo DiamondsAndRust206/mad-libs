@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("#formOne").submit(function(event) {
+   $("#formOne").submit(function(event) {
       event.preventDefault();
       const person1Input = $("input#person1").val();
       const person2Input = $("input#person2").val();
@@ -19,8 +19,10 @@ $(document).ready(function() {
     });
     $("#formTwo").submit(function(event) {
       event.preventDefault();
-      const nameInput = $("input#userName").val();
-      $(".userName").text(nameInput);
+      const myNameInput = $("input#myName").val();
+
+      $(".myName").text(myNameInput);
+
       $("#letter").show();
     });
   });
