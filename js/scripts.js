@@ -14,19 +14,6 @@ $(document).ready(function() {
       inputs.forEach(function(element, index) {
         blanks[index].textContent = element;
       });
-
-
-
-
-
-
-  
-      // $(".person1").text(person1Input);
-      // $(".person2").text(person2Input);
-      // $(".animal").text(animalInput);
-      // $(".exclamation").text(exclamationInput);
-      // $(".verb").text(verbInput);
-      // $(".noun").text(nounInput);
   
       $("#story").show();
     });
